@@ -6,6 +6,7 @@
 ## Fichiers
 #### Le fichier DM.py est Dungeon Master en console de commande codé en un seul fichier
 #### Le ZIP DMC est ce même Dungeon Master cependant scindé en deux fichiers différents, main.py et data.py 
+#### Le ZIP Dungeon_Master_G est le jeu en version graphique. Le zip contient un dossier avec les assets, un main.py et un data.py
 
 ## Règles
 
@@ -37,6 +38,7 @@
 * Sprites représentant le héros, l'ennemi, le donjon, le coeur, le dé et l'écran de Game Over
 * Affichage dans un premier temps de la description de l'ennemi, suivi du jet de dé avec l'outcome (self.victoire ou self.defaite qui détaillera l'ennemi et ce qu'il se passe)
 * Disparition du sprite de l'ennemi si ce dernier est vaincu au combat pour améliorer l'immersion
+* Version Executable disponible avec sa propre icone .ico
 
 ## Axes d'amélioration
 
