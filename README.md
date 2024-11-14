@@ -5,8 +5,9 @@
 
 ## Fichiers
 #### Le fichier DM.py est Dungeon Master en console de commande codé en un seul fichier
-#### Le ZIP DMC est ce même Dungeon Master cependant scindé en deux fichiers différents, main.py et data.py 
+#### Le ZIP DMC est ce même Dungeon Master en console, cependant scindé en deux fichiers différents, main.py et data.py 
 #### Le ZIP Dungeon_Master_G est le jeu en version graphique. Le zip contient un dossier avec les assets, un main.py et un data.py
+#### Le ZIP Dungeon_Master_Exe est le jeu en version graphique executable. C'est la release. Le zip contient l'executable et un dossier avec les assets.
 
 ## Règles
 
@@ -17,12 +18,13 @@
 #### Cependant, si lors d'un combat vous faites un 6 avec votre jet de dé, vous faites un Succès Critique, qui vous donne une vie supplémentaire
 
 #### Par contre, si vous effectuez un 1 avec votre jet de dé, vous faites un Échec Critique, qui met fin à votre aventure, quelque soit le nombre de vies que vous possédez
-
+#### Le jeu se joue qu'avec la barre espace à l'exception de la touche "r" qui reset le jeu lors d'un game over
 #### Le but du jeu est de finir le donjon et terminer les 20 pièces en restant en vie, bonne chance !
 
 ## Fonctionnalités
 
-#### Tout d'abord, nous avons deux versions à présenter pour notre rendu, une première qui se fait en console de commande et une autre en interface graphique
+#### Tout d'abord, nous avons deux versions principales à présenter pour notre rendu, une première qui se fait en console de commande et une autre en interface graphique
+###### Chaque version à une variante, la version console est disponible en un seul fichier et en deux fichiers (main et data qui s'appellent). La version graphique est disponible en executable et en fichiers python simples.
 
 #### Abordons en premier lieu les fonctionnalités communes que nous avons en plus de celles demandées dans l'énoncé : 
 * Cheminement effectué étape par étape par l'utilisateur 
@@ -31,19 +33,19 @@
 * Il y a également plusieurs descriptions de pièces vides, illustrant différentes atmosphères
 * Interactivité et utilisation de time sleep/delay pour des pauses et améliorer l'immersion pour profiter du jeu
 * Indicateur de progression ( Salle x/20)
-* Séparateur visuel des salles 
+* Séparateur visuel des salles
 
 #### Pour ce qui concerne la version graphique, voici les spécificités :
-* Effet de fade pour faire une transition entre deux pièces
+* Effet de fade noir pour faire une transition entre deux pièces
 * Sprites représentant le héros, l'ennemi, le donjon, le coeur, le dé et l'écran de Game Over
-* Affichage dans un premier temps de la description de l'ennemi, suivi du jet de dé avec l'outcome (self.victoire ou self.defaite qui détaillera l'ennemi et ce qu'il se passe)
+* Affichage dans un premier temps de la description de l'ennemi, suivi du jet de dé avec l'outcome (self.victoire ou self.defaite qui détaillera l'ennemi et la situation, s'il vous bats ou non)
 * Disparition du sprite de l'ennemi si ce dernier est vaincu au combat pour améliorer l'immersion
 * Version Executable disponible avec sa propre icone .ico
 
 ## Axes d'amélioration
 
 #### Voici une liste des différents éléments que nous pouvons ajouter à notre projet :
-* Du son 
+* Du son (son ambiant, son correspondant aux animations - combat, mort, jets de dé...)
 * Des sprites différents pour les 12 ennemies différents 
 * Des poses de combat/repos/marche pour notre protagoniste
 * Des animations (combat, lancer de dé, marche)
