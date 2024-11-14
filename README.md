@@ -3,6 +3,10 @@
 ## Astin LAURENS et Maxence POLLOZEC
 ## EPSI B3 ASRBD
 
+## Fichiers
+#### Le fichier DM.py est Dungeon Master en console de commande codé en un seul fichier
+#### Le ZIP DMC est ce même Dungeon Master cependant scindé en deux fichiers différents, main.py et data.py 
+
 ## Règles
 
 #### Roguelike où vous allez concrètement traverser 20 salles générées aléatoirement. On commence avec 1 PV
